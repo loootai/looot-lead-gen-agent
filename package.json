@@ -1,0 +1,23 @@
+{
+  "name": "looot-lead-gen-agent",
+  "version": "0.1.0",
+  "description": "Template agent: company domains in, people by title, verified work emails, CSV out. Built on the looot REST API.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/cli.ts",
+    "dry-run": "node src/cli.ts --domains examples/domains.txt --titles \"CEO,Head of Marketing\"",
+    "test": "node --test test/*.test.ts",
+    "scan": "bash scripts/leak-scan.sh ."
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loootai/looot-lead-gen-agent.git"
+  },
+  "homepage": "https://github.com/loootai/looot-lead-gen-agent",
+  "keywords": ["looot", "lead generation", "email finder", "email verification", "agent", "template"]
+}
