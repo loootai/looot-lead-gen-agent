@@ -1,6 +1,17 @@
 # looot-lead-gen-agent
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/loootai/looot-lead-gen-agent)
+
 A small template agent. Give it a list of company domains and job titles. It finds people at each company, finds their work emails, verifies them, and writes a CSV.
+
+## Install for agents
+
+```bash
+git clone https://github.com/loootai/looot-lead-gen-agent
+claude mcp add --transport http looot https://api.looot.ai/mcp
+```
+
+See also: [awesome-looot-use-cases](https://github.com/loootai/awesome-looot-use-cases) (copy-paste recipes) and [awesome-gtm](https://github.com/loootai/awesome-gtm) (open-source GTM tools).
 
 It runs on [looot](https://looot.ai): one token and one prepaid balance for 2,500+ data API endpoints. looot picks the provider for each step, shows the price first, and charges $0 for a failed call. This repo is a template. Click "Use this template" on GitHub, then change `src/agent.ts` to fit your list.
 
