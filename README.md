@@ -1,4 +1,8 @@
+<p align="center"><img src="assets/hero.png" alt="looot-lead-gen-agent: Domains in, verified work emails out" width="100%"></p>
+
 # looot-lead-gen-agent
+
+[![License](https://img.shields.io/github/license/loootai/looot-lead-gen-agent)](LICENSE) [![Release](https://img.shields.io/github/v/release/loootai/looot-lead-gen-agent)](https://github.com/loootai/looot-lead-gen-agent/releases) [![Docs](https://img.shields.io/badge/docs-docs.looot.ai-12A06A)](https://docs.looot.ai)
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/loootai/looot-lead-gen-agent)
 
